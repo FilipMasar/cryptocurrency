@@ -5,9 +5,9 @@ Information about favourite coins and tokens
 ./crypto.sh [OPTIONS]
 
 ## OPTIONS
--a list
+* -a list
   add list of currencies into your favourite
--r list
+* -r list
   remove list of currencies from your favourite
--c currency
+* -c currency
   convert results to currency
