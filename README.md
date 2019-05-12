@@ -1,5 +1,5 @@
 # Cryptocurrency
-Information about favourite coins and tokens
+Information about your favourite coins and tokens
 
 ## Running the program
 ./crypto.sh [OPTIONS]
@@ -15,13 +15,11 @@ __list__ is list of cryptocurrencies separated by comma. It has to be lowercase 
 OPTIONS:
 
     -a list
-        add __list__ of currencies into your favourite
+        add list of currencies into your favourite. List of cryptocurrencies has to be separated by comma. It has to be lowercase and spaces has to be replaced by dash. E.g. ethereum,bitcoin-cash
         
     -r list
-        email address(es), which the notification will be sent on
-        format: -m mail1@domain1 ... mailN@domainN
-        where can be N mail addresses separated by space
-        default: no mail will be send
+        remove list of currencies from your favourite
+        List of cryptocurrencies has to be separated by comma. It has to be lowercase and spaces has to be replaced by dash. E.g. ethereum,bitcoin-cash
         
     -c currency
         determines, what the mail notification will contain
