@@ -33,6 +33,8 @@ Information about your favourite coins and tokens
         Supported column - PRICE, HOUR, DAY, WEEK
         
 
+### Supported currencies for calculating market quotes
+
 <table>
 <thead>
 <tr><th>Currency</th><th>Currency Code</th></tr>
