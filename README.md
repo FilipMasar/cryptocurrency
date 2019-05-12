@@ -34,5 +34,3 @@ Information about your favourite coins and tokens
         
 
 
-
-# AHOJ
