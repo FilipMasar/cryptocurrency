@@ -15,11 +15,7 @@ __list__ is list of cryptocurrencies separated by comma. It has to be lowercase 
 OPTIONS:
 
     -a list
-        length of interval between tests
-        format: -t qu, where q is quantity and u is time unit
-        accepted units: 's' (seconds),'m' (minutes), 'h' (hours), 'd' (days)
-        (default unit: seconds)
-        default: 1h
+        add __list__ of currencies into your favourite
         
     -r list
         email address(es), which the notification will be sent on
