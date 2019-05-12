@@ -5,30 +5,34 @@ Information about your favourite coins and tokens
 ./crypto.sh [OPTIONS]
 
 ### OPTIONS
-* -a __list__ . add __list__ of currencies into your favourite
-* -r __list__ . remove __list__ of currencies from your favourite
-* -c __currency__ . convert results to __currency__
 
-__list__ is list of cryptocurrencies separated by comma. It has to be lowercase and spaces has to be replaced by dash. E.g. ethereum,bitcoin-cash
-
-
-OPTIONS:
 
     -a list
-        add list of currencies into your favourite. List of cryptocurrencies has to be separated by comma. It has to be lowercase and spaces has to be replaced by dash. E.g. ethereum,bitcoin-cash
+        optional
+        add list of currencies into your favourite
+        list of cryptocurrencies has to be separated by comma
+        it has to be lowercase and spaces has to be replaced by dash
+        Example: -a ethereum,bitcoin-cash
         
     -r list
+        optional
         remove list of currencies from your favourite
-        List of cryptocurrencies has to be separated by comma. It has to be lowercase and spaces has to be replaced by dash. E.g. ethereum,bitcoin-cash
+        list of cryptocurrencies has to be separated by comma
+        it has to be lowercase and spaces has to be replaced by dash
+        Example: -a cardano,bitcoin-cash,ripple
         
     -c currency
-        determines, what the mail notification will contain
-        format: -mc options
-        where options are either "diff" or "time" or
-        both separated by comma (without space!)
-        diff - the mail will contain diff of change
-        time - the mail will contain time of detecti
+        optional. By defaul set to USD
+        calculate market quotes in specified currency
+        Example: -c EUR
+        
        
     -s column
-        ashojas
-        aoskaoksa
+        optional. By defaul set to PRICE
+        sort data by column.
+        Supported column - PRICE, HOUR, DAY, WEEK
+        
+
+
+
+# AHOJ
